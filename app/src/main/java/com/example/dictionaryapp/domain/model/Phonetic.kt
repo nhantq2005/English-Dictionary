@@ -1,6 +1,6 @@
-package com.example.dictionaryapp.data.model.dto
+package com.example.dictionaryapp.domain.model
 
-data class PhoneticDto(
+data class Phonetic(
     val audio: String?=null,
     val sourceUrl: String?=null,
     val text: String?=null

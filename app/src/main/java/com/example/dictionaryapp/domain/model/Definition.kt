@@ -1,6 +1,6 @@
-package com.example.dictionaryapp.data.model.dto
+package com.example.dictionaryapp.domain.model
 
-data class DefinitionDto(
+data class Definition(
     val antonyms: List<Any>?=null,
     val definition: String?=null,
     val example: String?=null,

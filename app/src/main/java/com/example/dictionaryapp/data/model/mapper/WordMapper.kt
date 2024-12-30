@@ -1,4 +1,9 @@
 package com.example.dictionaryapp.data.model.mapper
 
-class WordMapper {
+import com.example.dictionaryapp.data.model.dto.WordItemDto
+import com.example.dictionaryapp.domain.model.WordItem
+
+fun WordItemDto.toWordItem() = WordItem {
+    word = word ?: "",
+    phoneticDtos
 }

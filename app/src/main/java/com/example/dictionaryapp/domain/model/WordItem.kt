@@ -1,8 +1,8 @@
-package com.example.dictionaryapp.data.model.dto
+package com.example.dictionaryapp.domain.model
 
-data class WordItemDto(
-    val meaningDtos: List<MeaningDto>?=null,
-    val phoneticDtos: List<PhoneticDto>?=null,
+data class WordItem(
+    val meaning: List<Meaning>?=null,
+    val phonetic: List<Phonetic>?=null,
     val sourceUrls: List<String>?=null,
     val word: String?=null
 )
