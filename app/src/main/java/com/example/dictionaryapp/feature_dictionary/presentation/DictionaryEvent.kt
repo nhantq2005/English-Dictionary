@@ -1,4 +1,7 @@
 package com.example.dictionaryapp.feature_dictionary.presentation
 
-class DictionaryEvent {
+sealed class DictionaryEvent {
+    data class EnteredSearch(val searchWord:String):DictionaryEvent()
+    object OnSearch:DictionaryEvent()
+
 }

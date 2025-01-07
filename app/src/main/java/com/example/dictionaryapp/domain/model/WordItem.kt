@@ -1,8 +1,7 @@
 package com.example.dictionaryapp.domain.model
 
 data class WordItem(
-    val meaning: List<Meaning>?=null,
-    val phonetic: List<Phonetic>?=null,
-    val sourceUrls: List<String>?=null,
+    val meanings: List<Meaning>?=null,
+    val phonetics: List<Phonetic>?=null,
     val word: String?=null
 )
